@@ -8,14 +8,13 @@ Requirements: Python 3.8.20 or higher
 ## Example datasets and the code for this method
 To get started, you need to download example datasets and the code for this method from URLs as below:
 
-[relevantdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/relevantdata.txt): this file includes 31 cancer types from the TCGA pan-cancer dataset, which are used for pre-training the multi-task model.
-# The dataset contains a total of 4033 columns, including:
-# - 4028 genes from the 186 KEGG pathways
-# - cancertype
-# - event2: censoring indicator for Overall Survival (OS)
-# - T2: Overall Survival (OS) time
-# - event1: censoring indicator for Progression-Free Interval (PFI)
-# - T1: Progression-Free Interval (PFI) time
+[relevantdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/relevantdata.txt): this file includes 31 cancer types from the TCGA pan-cancer dataset, which are used for pre-training the multi-task model. The dataset contains a total of 4033 columns, including:
+### - 4028 genes from the 186 KEGG pathways
+### - cancertype
+### - event2: censoring indicator for Overall Survival (OS)
+### - T2: Overall Survival (OS) time
+### - event1: censoring indicator for Progression-Free Interval (PFI)
+### - T1: Progression-Free Interval (PFI) time
 
 
 [targetdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/targetdata.txt): this file includes the SKCM cancer type from the TCGA pan-cancer dataset, which is used for fine-tuning the multi-task model.

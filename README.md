@@ -1,9 +1,7 @@
 # Transfer-learning based Overall Survival prediction conditional on Progression-Free Interval with TCGA RNA-seq expression and KEGG-pathways
 
-Operating system(s): Platform independent  
 Programming language: Python    
-Other requirements: Python 3.6.6 or higher, Pytorch 0.4.1  
-License: BSD 3-Clause License   
+Requirements: Python 3.8.20 or higher
 
 # Get Started
 ## Example Datasets

@@ -8,9 +8,9 @@ Requirements: Python 3.8.20 or higher
 ## Example datasets and the code for this method
 To get started, you need to download example datasets and the code for this method from URLs as below:
 
-[relevantdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/relevantdata.txt)
+[relevantdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/relevantdata.txt): this file includes 31 cancer types (excluding SKCM and LAML) from the TCGA pan-cancer dataset, which are used for pre-training the multi-task model.
 
-[targetdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/targetdata.txt)
+[targetdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/targetdata.txt): this file includes the SKCM cancer type from the TCGA pan-cancer dataset, which is used for fine-tuning the multi-task model.
 
 [Multi-task model.ipynb](https://github.com/1LinBo/Multi-task-network/blob/main/Multi-task%20model.ipynb)
 

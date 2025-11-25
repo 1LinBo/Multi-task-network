@@ -9,9 +9,6 @@ To get started, you first need to install all the required dependencies via pip:
 ```sh
 pip install -r requirements.txt
 ```
-OR, via conda:
-```sh
-conda install -c conda-forge pycox
 
 ## Example Datasets
 To get started, you need to download example datasets from URLs as below:

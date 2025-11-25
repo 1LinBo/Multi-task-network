@@ -1,9 +1,5 @@
-# metalearning_survival
+# Transfer-learning based Overall Survival prediction conditional on Progression-Free Interval with TCGA RNA-seq expression and KEGG-pathways
 
-
-Project name: A meta-learning approach for genomic survival analysis  
-
-Project home page: https://github.com/gevaertlab/metalearning_survival.  
 Operating system(s): Platform independent  
 Programming language: Python    
 Other requirements: Python 3.6.6 or higher, Pytorch 0.4.1  

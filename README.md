@@ -8,15 +8,16 @@ Requirements: Python 3.8.20 or higher
 ## Example datasets and the code for this method
 To get started, you need to download example datasets and the code for this method from URLs as below:
 
-[relevantdata.txt](http://dataxlab.org/PASNet/train.csv](https://github.com/1LinBo/Multi-task-network/blob/main/relevantdata.txt)
+[relevantdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/relevantdata.txt)
 
-[targetdata.txt](http://dataxlab.org/PASNet/validation.csv](https://github.com/1LinBo/Multi-task-network/blob/main/targetdata.txt)
+[targetdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/targetdata.txt)
 
 [Multi-task model.ipynb](https://github.com/1LinBo/Multi-task-network/blob/main/Multi-task%20model.ipynb)
 
-[eval.py] (https://github.com/1LinBo/Multi-task-network/blob/main/eval.py)
+[eval.py](https://github.com/1LinBo/Multi-task-network/blob/main/eval.py)
 
-[requirements.txt] (https://github.com/1LinBo/Multi-task-network/blob/main/requirements.txt)
+[requirements.txt](https://github.com/1LinBo/Multi-task-network/blob/main/requirements.txt)
+
 
 To get started, you first need to install all the required dependencies via pip:
 ```sh

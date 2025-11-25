@@ -4,6 +4,16 @@ Programming language: Python
 Requirements: Python 3.8.20 or higher
 
 # Get Started
+
+To get started you first need to install [PyTorch](https://pytorch.org/get-started/locally/).
+You can then install **pycox** via pip: 
+```sh
+pip install pycox
+```
+OR, via conda:
+```sh
+conda install -c conda-forge pycox
+
 ## Example Datasets
 To get started, you need to download example datasets from URLs as below:
 

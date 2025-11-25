@@ -5,10 +5,9 @@ Requirements: Python 3.8.20 or higher
 
 # Get Started
 
-To get started you first need to install [PyTorch](https://pytorch.org/get-started/locally/).
-You can then install **pycox** via pip: 
+To get started, you first need to install all the required dependencies via pip:
 ```sh
-pip install pycox
+pip install -r requirements.txt
 ```
 OR, via conda:
 ```sh

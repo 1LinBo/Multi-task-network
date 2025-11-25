@@ -18,6 +18,7 @@ To get started, you need to download example datasets and the code for this meth
 
 [requirements.txt](https://github.com/1LinBo/Multi-task-network/blob/main/requirements.txt)
 
+[mask.pt](https://github.com/1LinBo/Multi-task-network/blob/main/mask.pt)
 
 To get started, you first need to install all the required dependencies via pip:
 ```sh

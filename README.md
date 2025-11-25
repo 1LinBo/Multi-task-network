@@ -3,21 +3,27 @@
 Programming language: Python    
 Requirements: Python 3.8.20 or higher
 
-# Get Started
+# Get started
+
+## Example datasets and the code for this method
+To get started, you need to download example datasets and the code for this method from URLs as below:
+
+[relevantdata.txt](http://dataxlab.org/PASNet/train.csv](https://github.com/1LinBo/Multi-task-network/blob/main/relevantdata.txt)
+
+[targetdata.txt](http://dataxlab.org/PASNet/validation.csv](https://github.com/1LinBo/Multi-task-network/blob/main/targetdata.txt)
+
+[Multi-task model.ipynb](https://github.com/1LinBo/Multi-task-network/blob/main/Multi-task%20model.ipynb)
+
+[eval.py] (https://github.com/1LinBo/Multi-task-network/blob/main/eval.py)
+
+[requirements.txt] (https://github.com/1LinBo/Multi-task-network/blob/main/requirements.txt)
 
 To get started, you first need to install all the required dependencies via pip:
 ```sh
 pip install -r requirements.txt
 ```
 
-## Example Datasets
-To get started, you need to download example datasets from URLs as below:
 
-[Train data](http://dataxlab.org/PASNet/train.csv) 
-
-[Validation data](http://dataxlab.org/PASNet/validation.csv)
-
-[Pathway Mask data](http://dataxlab.org/PASNet/pathway_mask.csv)
 
 ## Empirical Search for Hyperparameters 
 Run_EmpiricalSearch.py: to find the optimal pair of hyperparmaters for PASNet before performing cross validation. PASNet is trained with the inputs from train.csv. Hyperparameters are optimized by emipirical search with validation.csv.

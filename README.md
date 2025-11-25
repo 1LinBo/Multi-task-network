@@ -5,6 +5,21 @@ Programming language: Python
 Other requirements: Python 3.6.6 or higher, Pytorch 0.4.1  
 License: BSD 3-Clause License   
 
+# Get Started
+## Example Datasets
+To get started, you need to download example datasets from URLs as below:
+
+[Train data](http://dataxlab.org/PASNet/train.csv) 
+
+[Validation data](http://dataxlab.org/PASNet/validation.csv)
+
+[Pathway Mask data](http://dataxlab.org/PASNet/pathway_mask.csv)
+
+## Empirical Search for Hyperparameters 
+Run_EmpiricalSearch.py: to find the optimal pair of hyperparmaters for PASNet before performing cross validation. PASNet is trained with the inputs from train.csv. Hyperparameters are optimized by emipirical search with validation.csv.
+## 5-fold Cross Validation
+Run.py: to train and evaluate the model performance based on 10 times 5-fold cross validation.
+
 ***Example usage***
 
 **Direct learning**

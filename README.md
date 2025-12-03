@@ -12,7 +12,7 @@ To get started, you need to download example datasets and the code for this meth
 
 [targetdata.txt](https://github.com/1LinBo/Multi-task-network/blob/main/targetdata.txt): this file includes the SKCM cancer type from the TCGA pan-cancer dataset, which is used for fine-tuning the multi-task model. The dataset contains a total of 4033 columns, including: 4028 genes (from the 186 KEGG pathways), cancertype, event2 (censoring indicator for Overall Survival, T2 (Overall Survival time), event1 (censoring indicator for Progression-Free Interval), T1 (Progression-Free Interval time).
 
-[Multi-task model.ipynb](https://github.com/1LinBo/Multi-task-network/blob/main/Multi-task%20model.ipynb): this file includes the general usage of this method in terms of preprocessing, creation of neural networks, model training, and evaluation procedure.
+[Multi-task model.ipynb](https://github.com/1LinBo/Multi-task-network/blob/main/Multi-task%20model.ipynb): this file includes the general usage of this method in terms of data preprocessing, creation of neural networks, model training, and evaluation procedure.
 
 [eval.py](https://github.com/1LinBo/Multi-task-network/blob/main/eval.py): this file includes the classes for evaluation metrics (C-index and IBS), which are used in Multi-task model.ipynb.
 
